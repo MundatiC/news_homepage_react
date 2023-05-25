@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeaturedSection = () => {
   return (
-    <div className='featuredSection'>
+    <>
       <div className="beige beige1">
         <div className="smallImg beigeSub">
           <img src="images/image-retro-pcs.jpg" alt="" />
@@ -33,7 +33,7 @@ const FeaturedSection = () => {
           <p>How the pandemic has sparked fresh opportunities.</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className='heroSection'>
+    <>
       <img className="bigImgDesk" src="images/image-web-3-desktop.jpg" alt="" />
       <img className="bigImgMobile" src="images/image-web-3-mobile.jpg" alt="" />
 
@@ -17,7 +17,7 @@ const HeroSection = () => {
           <button>READ MORE</button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
